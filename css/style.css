@@ -34,7 +34,7 @@
     width: 100vw;
     height: 80px;
     position: fixed;
-    top: 10px;
+    top: auto;
     background: linear-gradient(#e66465, #9198e5);
     z-index: 1;
 
@@ -47,7 +47,7 @@
     flex-direction: row;
     justify-content: flex-end;
     gap: 30px;
-    margin: 12px;
+    margin-top: auto;
     box-shadow: rgb(77, 61, 61);
 }
 
@@ -59,7 +59,7 @@ margin-right: auto;
 }
 
 .nav_menu .logo h1{
-    font-size: 2rem ;
+    font-size: 4rem ;
 }
 
 .nav_menu li{
@@ -85,10 +85,10 @@ margin-right: auto;
     /* ============= This is the description section ===================*/
     .container_description{
         position: relative;
-        top: 5rem;
+        top: 1px;
         overflow: hidden;
         height: 90vh;
-        background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(75, 75, 117, 0.5)), url('../images/home_page_images/backimage.jpg');
+        background-image: url('../images/home_page_images/backImage.jpg');
         background-size: 100%;
   background-size: cover;
        
@@ -171,3 +171,71 @@ margin-right: auto;
   border: 2px solid #4285f4;
 }
 
+
+/* Beginning Learning content page */
+.programmes h1{
+    
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #ff7b00;
+    padding-bottom: 2px;
+}
+
+.programmes h4{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #ff7b00;
+    padding-bottom: 2px;
+}
+.content_header{
+    position: absolute;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.myContents{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background: rebeccapurple;
+    color:white;
+    margin: 10px;
+    gap: 12px;
+    border-radius: 5px;
+}
+
+.myLearning{
+    background-color: blueviolet;
+    box-shadow: black;
+    z-index: 3px;
+    margin: 5px 15px;
+    width: 350px ;
+    border-radius: 7px;
+}
+
+.myLearning:hover{
+    background-color:greenyellow;
+    transition: 2s;
+    z-index: 1px;
+    box-shadow:pink;
+    
+}
+
+.myLearning h3{
+text-align: center;
+padding-top: none;
+color: red;
+font-size: 2rem;
+}
+
+.myLearning p{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.form_section{
+    background-color: grey;
+}
