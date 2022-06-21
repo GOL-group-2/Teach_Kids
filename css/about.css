@@ -280,7 +280,7 @@ height: 40%;
         flex-direction: column;
     }
 
-    .contact_name input{
+    .contact_name input[type="text"]{
         width: 100%;
     }
 

@@ -164,7 +164,11 @@
         </aside>
 
         <!-- Contact form here below -->
-        <form class="contact_form">
+        <form
+          action="https://formspree.io/f/mdobvavp"
+          method="POST"
+          class="contact_form"
+        >
           <h4>Book Kids Coding with Us</h4>
           <div class="contact_name">
             <input
@@ -175,35 +179,33 @@
             />
 
             <input
-            type="email"
-            name="email"
-            placeholder="School email Address"
-            required
-          /> <br>
-         
+              type="email"
+              name="email"
+              placeholder="School email Address"
+              required
+            />
+            <br />
           </div>
 
           <div class="contact_name">
             <input
-            type="text"
-            name="email"
-            placeholder="Enter Your Country"
-            required
-          />
-          <input
-            type="text"
-            name="email"
-            placeholder="Enter Your zoom account"
-            required
-          />
+              type="text"
+              name="Country"
+              placeholder="Enter Your Country"
+              required
+            />
+            <input
+              type="text"
+              name="zoom"
+              placeholder="Enter Your zoom account"
+              required
+            />
           </div>
-          
-    
+
           <textarea
             name="message"
             rows="7"
             placeholder="Enter your message"
-            required
           ></textarea>
 
           <button type="submit" class="btn btn-primary">Send Here</button>
