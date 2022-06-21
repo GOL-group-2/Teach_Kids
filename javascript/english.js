@@ -1,3 +1,6 @@
+
+// the videos play sector in english navbar
+'use strict'
 var listVideo = document.querySelectorAll(".video_list .vid");
 var mainVideo = document.querySelector(".main_video video");
 var title = document.querySelector(".main_video .title");
@@ -14,3 +17,6 @@ listVideo.forEach((video) => {
     }
   };
 });
+
+
+
