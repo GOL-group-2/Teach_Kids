@@ -60,3 +60,204 @@ margin-right: auto;
 .nav_menu a:hover{
     color:var(--color-bg2);
     }
+
+
+    /* achievement section */
+
+    .about_achievement{
+        margin-top: 0.5rem;
+        background-color: #4b4e66;
+        height: auto;
+
+    }
+
+.about_achievement-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: rem;
+    margin-right: 10px;
+
+}
+
+.left_side img{
+    height: 20rem;
+    width: 30rem;
+}
+
+.right_side > p{
+margin: 1.6rem 0 2rem;
+
+}
+.achievements_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement_card{
+    background: #9198e5;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    
+}
+
+.achievement_card:hover{
+    background: #4b4e66;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    transform: rotate(15deg);
+    transition: 2s;
+}
+.achievement_icon{
+    background: blueviolet;
+    padding: 0.6rem;
+    display: inline;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+}
+.achievement_card:nth-child(2)
+.achievement_icon
+{
+background: green;
+}
+
+
+.achievement_card:nth-child(3)
+.achievement_icon
+{
+background: rgb(0, 102, 128);
+}
+
+.achievement_card p{
+    margin-top: 1rem;
+}
+
+
+
+/* Contact section  */
+
+.contact_container{
+    background-image: url("../images/home_page_images/contact-us-banner.png");
+
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 3rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+/* aside part of the form */
+
+
+.contact_aside{
+    background: rgb(201, 156, 156);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 3rem; 
+}
+
+.aside_image{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+.contact_aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+.contact_aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact_details li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.contact_socials{
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 3rem;
+}
+
+.contact_socials a{
+    background: rgb(14, 14, 41);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: 1s;
+
+}
+
+.contact_socials a:hover{
+    background: transparent;
+}
+
+/* =====the form style are below ============*/
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+
+.contact_name{
+    display: flex;
+    gap: 7px;
+}
+
+.contact_name input[type="text"]{
+    width: 60%;
+
+}
+
+input, textarea{
+width: 100%;
+padding: 1rem;
+background: rgb(60, 16, 139);
+color: white;
+border-radius: 5px;
+height: 40%;
+}
+
+.contact_form .btn{
+    width: max-content;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact{
+        padding-bottom: 0;
+
+    }
+
+    .contact_container{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .contact_aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contact_form{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+}
