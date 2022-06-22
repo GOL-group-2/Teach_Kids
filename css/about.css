@@ -236,6 +236,10 @@ height: 40%;
     margin-top: 1rem;
 
 }
+/* footer css */
+.container{
+margin-top: 250px;
+}
 
 @media screen and (max-width: 768px) {
     .contact{
