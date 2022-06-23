@@ -1,62 +1,146 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    outline: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: transparent;
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: auto;
+  background: linear-gradient(#e66465, #9198e5);
+  z-index: 1;
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: auto;
+  box-shadow: rgb(77, 61, 61);
+}
+
+.nav_menu .maths {
+  margin-left: auto;
+}
+.nav_menu .logo {
+  margin-right: auto;
+}
+
+.nav_menu .logo h1 {
+  font-size: 4rem;
+}
+
+.nav_menu li {
+  background-color: green;
+  color: aliceblue;
+  font-size: 2rem;
+  border-radius: 5px;
+  height: 60px;
+  width: 160px;
+  text-align: center;
+}
+
+.nav_menu li a {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.nav_menu a:hover {
+  color: var(--color-bg2);
+}
+
+/* beginning css for the codes games */
+.codeKids{
+    font-family: 'Courier New', Courier, monospace;
+    inset: 10px 20px 30px 40px;
+    background-color: antiquewhite;
+}
+
+.heading_coding{
+    font-size: 40px;
+    color: #9198e5;
+    text-align: center;
+    padding-top: 20px;
+}
+.description{
+    padding: 5px;
+    display: grid;
+    flex-direction: row;
+    gap: 1px;
+    grid-template-columns: 30% 70%;
+}
+
+.description img{
+    font-size: small;
+    height: 10rem;
+    width: 80%;
 }
 
 
-.navbar{
-    background: transparent;
-    width: 100vw;
-    height: 80px;
-    position: fixed;
-    top: auto;
-    background: linear-gradient(#e66465, #9198e5);
-    z-index: 1;
-
-
-
+.description p{
+    font-size: 19px;
+    height: 10rem;
+    width: 100%;
+    color: black;
+    text-align: justify;
 }
-
-.nav_menu{
+.games_container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    gap: 30px;
-    margin-top: auto;
-    box-shadow: rgb(77, 61, 61);
+    background-color: inset 2px 2px 2px grey rgba(128, 128, 128, 0.395);
 }
 
-av_menu .maths{
-    margin-left: auto;
+.scratch_container {
+  width: 20%;
+  background-color: burlywood;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
 }
-.nav_menu .logo{
-margin-right: auto;
-}
-
-.nav_menu .logo h1{
-    font-size: 4rem ;
-}
-
-.nav_menu li{
-    background-color: green;
-    color: aliceblue;
-    font-size: 2rem;
-    border-radius: 5px;
-    height: 60px;
-    width: 160px;
-    text-align: center;
+.scratch_container:hover {
+  background-color: rgb(87, 77, 63);
+  box-shadow: 2px 2px 10px black;
 }
 
-.nav_menu li a{
-    text-align: center;
-    padding-top: 5px;
+.image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: black;
+  cursor: pointer;
 }
 
-.nav_menu a:hover{
-    color:var(--color-bg2);
-    }
+.title_game{
+  text-align: center;
+  padding: 5px;
+}
+
+.game_des {
+  padding: 4px;
+  text-align: center;
+}
+
+.game_des button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: indigo;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.game_des button:hover {
+  background-color: #9198e5;
+  color: white;
+  transition: 3s;
+}
