@@ -95,19 +95,22 @@
 .games_container{
     display: flex;
     flex-direction: row;
-    background-color: inset 2px 2px 2px grey rgba(128, 128, 128, 0.395);
+    gap: 15px;
+    justify-content: space-evenly;
+    background-color: inset 2px 2px 2p
 }
 
 .scratch_container {
   width: 20%;
   background-color: burlywood;
-  margin: 5px;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px rgb(28, 125, 157);
+  
 }
 .scratch_container:hover {
-  background-color: rgb(87, 77, 63);
-  box-shadow: 2px 2px 10px black;
+  background-color: rgb(55, 70, 110);
+  color: white;
+
 }
 
 .image img {
