@@ -97,7 +97,8 @@
     flex-direction: row;
     gap: 15px;
     justify-content: space-evenly;
-    background-color: inset 2px 2px 2p
+    background-color: rgba(107, 25, 184, 0.3);
+    
 }
 
 .scratch_container {

@@ -37,12 +37,14 @@
             ><i class="fa-solid fa-plus-minus fa-beat-fade"></i>Math</a
           >
         </li> -->
-        <li >
-          <a href="index.html">Home</a>
+        <li>
+          <a href="index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
         </li>
 
         <li class="maths">
-          <a href="../navbar/math.html"><i class="fa-solid fa-plus-minus fa-beat-fade"></i>Math</a>
+          <a href="../navbar/math.html"
+            ><i class="fa-solid fa-equals icon-3x"></i>Math</a
+          >
         </li>
 
         <li>
@@ -53,7 +55,7 @@
 
         <li>
           <a href="../navbar/english.html"
-            ><i class="fa-solid fa-font-case"></i>English</a
+            ><i class="fa-solid fa-book-open-reader"></i>English</a
           >
         </li>
 
@@ -64,7 +66,7 @@
         </li>
 
         <li>
-          <a href="about.html">About</a>
+          <a href="about.html"><i class="fa-solid fa-address-card"></i>About</a>
         </li>
       </div>
     </nav>
@@ -109,7 +111,8 @@
           </div>
         </div>
       </div>
-    </section> <hr>
+    </section>
+    <hr />
 
     <!-- Contact sections -->
 
@@ -146,25 +149,25 @@
           <ul class="contact_socials">
             <li>
               <a href="facebook">
-                <i class="facebook-Icon"> </i>
+                <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
 
             <li>
               <a href="instagram">
-                <i class="instagram-Icon"> </i>
+                <i class="fa-brands fa-instagram-square"></i>
               </a>
             </li>
 
             <li>
               <a href="twitter">
-                <i class="twitter-Icon"> </i>
+                <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
 
             <li>
               <a href="linkedin">
-                <i class="linkedin-Icon"> </i>
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
           </ul>
@@ -174,14 +177,15 @@
         <form
           action="https://formspree.io/f/mdobvavp"
           method="POST"
-          class="contact_form" id="book_form"
+          class="contact_form"
+          id="book_form"
         >
           <h4>Book Kids Coding with Us</h4>
           <div class="contact_name">
             <input
               type="text"
               name="school_name"
-              placeholder="school name"
+              placeholder="School name"
               required
             />
 
@@ -197,30 +201,32 @@
           <div class="contact_name">
             <input
               type="text"
-              name="Country"
-              placeholder="Enter Your Country"
+              name="Teacher"
+              placeholder="Enter The Teacher"
               required
             />
             <input
               type="text"
-              name="zoom"
-              placeholder="Enter Your zoom account"
+              name="Country"
+              placeholder="Students Grade"
               required
             />
+            <input
+              type="date"
+              name="date"
+              placeholder="Click to Schedule"
+              required
+            />
+
+            <input type="time" name="time" required />
           </div>
 
-          <textarea
-            name="message"
-            rows="7"
-            placeholder="Enter your message"
-          ></textarea>
+          <textarea name="message" rows="7"></textarea>
 
           <button type="submit" class="btn btn-primary">Send Here</button>
         </form>
       </div>
     </section>
-
-
 
     <div class="container footer_container">
       <footer class="py-5">
@@ -228,20 +234,35 @@
           <div class="col-6 col-md-2 mb-3">
             <h5>Main content for your Kids</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="../navbar/math.html" class="nav-link p-0 text-muted">Math</a>
+              <li>
+                <a href="index.html"
+                  ><i class="fa-solid fa-house-chimney"></i>Home</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="../navbar/game.html" class="nav-link p-0 text-muted">Games</a>
+                <a href="../navbar/math.html"
+                  ><i class="fa-solid fa-equals icon-3x"></i>Math</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="../navbar/english.html" class="nav-link p-0 text-muted">English</a>
+                <a href="../navbar/game.html"
+                  ><i class="fa-solid fa-futbol fa-shake"></i>Games</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="../navbar/codekids.html" class="nav-link p-0 text-muted">CodeKids</a>
+                <a href="../navbar/english.html"
+                  ><i class="fa-solid fa-book-open-reader"></i>English</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="../navbar/about.html" class="nav-link p-0 text-muted">About</a>
+                <a href="../navbar/codekids.html"
+                  ><i class="fa-solid fa-display"></i>CodeKids</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="../navbar/about.html"
+                  ><i class="fa-solid fa-address-card"></i>About</a
+                >
               </li>
             </ul>
           </div>
@@ -249,30 +270,47 @@
           <div class="col-6 col-md-2 mb-3">
             <h5>Reference Links</h5>
             <ul class="nav flex-column">
-
-             
-                <li class="nav-item mb-2">
-                    <a  href="https://scratch.mit.edu/" target="_blank" class="nav-link p-0 text-muted">Scratch</a>
-                  </li>
-    
               <li class="nav-item mb-2">
-                <a  href="#"  target="_blank" class="nav-link p-0 text-muted">Tynker</a>
+                <a
+                  href="https://scratch.mit.edu/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >Scratch</a
+                >
               </li>
 
               <li class="nav-item mb-2">
-                <a  href="https://app.htmlplanetforkids.com/" target="_blank" class="nav-link p-0 text-muted">Html Planet for kids</a>
+                <a
+                  href="https://www.tynker.com/#/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >Tynker</a
+                >
               </li>
-              
-              <li class="nav-item mb-2">
-                <a href="#" target="_blank" class="nav-link p-0 text-muted">Digital Literacy</a>
-              </li>
-              
-              <li class="nav-item mb-2">
-                <a  href="#" target="_blank" class="nav-link p-0 text-muted">Read E-books</a>
-              </li>
-              
 
+              <li class="nav-item mb-2">
+                <a
+                  href="https://app.htmlplanetforkids.com/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >Html Planet for kids</a
+                >
+              </li>
 
+              <li class="nav-item mb-2">
+                <a href="#" target="_blank" class="nav-link p-0 text-muted"
+                  >Digital Literacy</a
+                >
+              </li>
+
+              <li class="nav-item mb-2">
+                <a
+                  href="https://monkeypen.com/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >Read E-books</a
+                >
+              </li>
             </ul>
           </div>
 
@@ -304,26 +342,30 @@
             <li class="ms-3">
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter" /></svg></a>
+                  <use xlink:href="#twitter" /></svg
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
             </li>
 
             <i class="bi bi-instagram"></i>
             <li class="ms-3">
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram" /></svg></a>
+                  <use xlink:href="#instagram" /></svg
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
             </li>
             <li class="ms-3">
-              <a class="link-dark " href="#"
+              <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook" /></svg></a>
+                  <use xlink:href="" /></svg
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
             </li>
           </ul>
         </div>
       </footer>
     </div>
-
-
 
     <script src="../javascript/index.js"></script>
   </body>
