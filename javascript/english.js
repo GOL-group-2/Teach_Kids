@@ -20,3 +20,20 @@ listVideo.forEach((video) => {
 
 
 
+// the religious story
+var  videoList = document.querySelectorAll(".video-list .video");
+var mainGride = document.querySelector(".main-gride video");
+var thumb = document.querySelector(".main-gride .thumb");
+
+videoList.forEach((video) => {
+  video.onclick = () => {
+    videoList.forEach((video) => video.classList.remove("active"));
+    video.classList.add("active");
+    if (video.classList.contains("active")) {
+      var src = video.children[0].getAttribute("src");
+      mainGride.src = src;
+      var text = video.children[1].innerHTML;
+      thumb.innerHTML = text;
+    }
+  };
+});
