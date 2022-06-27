@@ -60,3 +60,12 @@ margin-right: auto;
 .nav_menu a:hover{
     color:var(--color-bg2);
     }
+
+/* games css */
+.scratch_container{
+    margin-top: 20px;
+margin-bottom:15px;
+}
+.images{
+    height: 40%;
+}
