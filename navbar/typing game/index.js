@@ -23,7 +23,7 @@ const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
 const message = document.querySelector('#message');
 const seconds = document.querySelector('#seconds');
-const highscoreDisplay = document.querySelector('#highscore');
+const highscoreDisplay = document.querySelector('#highScore');
 
 const words = [
   'Hat',
@@ -81,16 +81,16 @@ function startMatch() {
     score++;
   }
   
-  // Highscore based on score value for Session Storage
-  if (typeof sessionStorage['highscore'] === 'undefined' || score > sessionStorage['highscore']) {
-    sessionStorage['highscore'] = score;
+  // highScore based on score value for Session Storage
+  if (typeof sessionStorage['highScore'] === 'undefined' || score > sessionStorage['highScore']) {
+    sessionStorage['highScore'] = score;
   } else {
-    sessionStorage['highscore'] = sessionStorage['highscore'];
+    sessionStorage['highScore'] = sessionStorage['highScore'];
   }
 
   // Prevent display of High Score: -1
-  if (sessionStorage['highscore'] >= 0) {
-  highscoreDisplay.innerHTML = sessionStorage['highscore'];
+  if (sessionStorage['highScore'] >= 0) {
+  highscoreDisplay.innerHTML = sessionStorage['highScore'];
   }
 
   // If score is -1, display 0
