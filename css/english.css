@@ -28,7 +28,7 @@
   box-shadow: rgb(77, 61, 61);
 }
 
-av_menu .maths {
+.nav_menu .maths {
   margin-left: auto;
 }
 .nav_menu .logo {
@@ -185,7 +185,135 @@ av_menu .maths {
       }
       
     }
+    /*scratch*/
+
+    .scratch{
+  align-items: center;
+  background: rgb(150, 59, 111);
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .words{
+      color: antiquewhite;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+      
+    }
+    /*religious*/
+    
+    .video-columns{
+      background: rgba(214, 227, 226, 0.933);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 5px 5%;
+    }
+  .video-columns .main-gride{
+border-radius: 5px;
+padding:10px;
+background-color:whitesmoke;
+  }
+  .video-columns .main-gride video{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .video-columns .main-gride .thumb{
+    color: rgb(197, 4, 7);
+  font-size: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+
+  .video-columns .video-list{
+    background: rgb(225, 235, 235);
+  border-radius: 5px;
+  height: 450px;
+  overflow-y: scroll;
+  }
+
+  .video-columns .video-list::-webkit-scrollbar{
+    width: 7%;
+  }
+
+.video-columns .video-list::-webkit-scrollbar-track{
+  border-radius: 50px;
+  background:#0c13d4
+}
+.video-columns.video-list::-webkit-scrollbar-thumb{
+  background: #6f77d3;
+  border-radius: 50px;
+}
+
+.video-columns.video-list.video video{
+  width: 50%;
+  border-radius: 5px;
+}
+
+.video-columns.video-list.video{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgb(199, 200, 202);
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.video-columns.video-list.video:hover{
+  background: #1e2579;
+  color: white;
+}
+
+.video-columns.video-columns.video-list.video.active{
+  background:greenyellow;
+}
+.video-columns .video-list .video.active .thumb {
+  color: rgb(15, 71, 192);
+}
+
+.video-columns .video-list .video .thumb {
+    color: rgb(190, 15, 181);
+    font-size: 15px;
+  }
 
 
-
+  /* desktop media query */
+@media screen and (max-width: 992px){
+.video-columns {
+    grid-template-columns: 1.5fr 1fr;
+    padding: 10px;
+  }
   
+}
+
+
+  /* tablets media query */
+@media screen and (max-width: 991px){
+    .video-columns {
+        grid-template-columns: 1fr;
+      }
+      
+    }
+
+
+
+  /* phone media query */
+  @media screen and (max-width: 480px){
+    .video-columns {
+        grid-template-columns: 1fr;
+      }
+      
+    }
+
+    .v-tittle{
+      color:#d45f0c;
+      font-size: 2rem;
+      text-align: center;
+      font-family: sans-serif;
+    }
