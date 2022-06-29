@@ -148,3 +148,15 @@
   color: white;
   transition: 3s;
 }
+
+@media only screen and (max-width:600px) {
+  
+}
+@media screen and (max-width: 600px) {
+  .scratch_container{
+      display: block;
+      font-size: 35px;
+      height: auto;
+      top: auto;
+  }
+}
