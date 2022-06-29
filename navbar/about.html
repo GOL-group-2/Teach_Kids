@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TeachKids</title>
-
     <!-- lINK OF STYLESHEET -->
     <link rel="stylesheet" href="../css/about.css" />
+    <script src="https://kit.fontawesome.com/a6624ec6aa.js" crossorigin="anonymous"></script>
+  
 
     <!--============bootstrap Link  ================ -->
 
@@ -20,10 +21,7 @@
 
     <!-- Awsome fonts script -->
 
-    <script
-      src="https://kit.fontawesome.com/577b360ea0.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/577b360ea0.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -126,7 +124,8 @@
 
           <ul class="contact_details">
             <li class="#">
-            <i>contact</i>
+              <i>cotact icon</i>
+              
               <h5>+254713619067</h5>
             </li>
 
@@ -171,8 +170,7 @@
 
         <!-- Contact form here below -->
         <form
-          action="https://formspree.io/f/mdobvavp"
-          method="POST"
+        action="https://formspree.io/f/mdobvavp" method="POST"
           class="contact_form"
           id="book_form"
         >
@@ -180,6 +178,7 @@
           <div class="contact_name">
             <input
               type="text"
+              id="school_name"
               name="school_name"
               placeholder="School name"
               required
@@ -187,6 +186,7 @@
 
             <input
               type="email"
+              id="email_name"
               name="email"
               placeholder="School email Address"
               required
@@ -197,29 +197,32 @@
           <div class="contact_name">
             <input
               type="text"
+              id="teacher_name"
               name="Teacher"
               placeholder="Enter The Teacher"
               required
             />
             <input
               type="text"
-              name="Country"
+              id="grade_name"
+              name="Grade"
               placeholder="Students Grade"
               required
             />
             <input
               type="date"
+              id="date_name"
               name="date"
-              placeholder="Click to Schedule"
+              placeholder="Schedule"
               required
             />
 
-            <input type="time" name="time" required />
+            <input type="time" id="time_name" name="time" required />
           </div>
 
-          <textarea name="message" rows="7"></textarea>
+          <textarea  style="color: white;" id="message_name" name="message" rows="7" placeholder="Messages us your topic of interest to help you and your child/students"></textarea>
 
-          <button type="submit" class="btn btn-primary">Send Here</button>
+          <button type="submit" id="btn" class="btn btn-primary">Send</button>
         </form>
       </div>
     </section>
@@ -237,7 +240,7 @@
               </li>
               <li class="nav-item mb-2">
                 <a href="../navbar/math.html"
-                  ><i class="fa-solid fa-equals icon-3x"></i>Math</a
+                  ><i class="fa-solid fa-user-graduate"></i>E-Book</a
                 >
               </li>
               <li class="nav-item mb-2">
@@ -311,7 +314,7 @@
           </div>
 
           <div class="col-md-5 offset-md-1 mb-3">
-            <form>
+            <form action="https://formspree.io/f/xayvzvkv"   method="POST">
               <h5 style="color: pink">Our lesson</h5>
               <p>Get in touch with us, for update.</p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
@@ -321,6 +324,7 @@
                 <input
                   id="newsletter1"
                   type="text"
+                  name="email"
                   class="form-control"
                   placeholder="Email address"
                 />
@@ -364,5 +368,6 @@
     </div>
 
     <script src="../javascript/index.js"></script>
+    <script src="../javascript/about.js"></script>
   </body>
 </html>

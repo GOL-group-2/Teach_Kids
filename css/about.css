@@ -10,7 +10,7 @@
 
 .navbar {
   background: transparent;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   position: fixed;
   top: auto;
@@ -214,6 +214,7 @@ textarea {
   color: white;
   border-radius: 5px;
   height: 40%;
+  color: white;
 }
 
 .contact_form .btn {
