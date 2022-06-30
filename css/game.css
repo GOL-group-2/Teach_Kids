@@ -52,10 +52,11 @@ margin-right: auto;
     text-align: center;
 }
 
-.nav_menu li a{
+.nav_menu li a {
     text-align: center;
     padding-top: 5px;
-}
+    text-decoration: none;
+  }
 
 .nav_menu a:hover{
     color:var(--color-bg2);
