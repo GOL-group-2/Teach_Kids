@@ -51,6 +51,7 @@ av_menu .maths {
 .nav_menu li a {
   text-align: center;
   padding-top: 5px;
+  text-decoration: none;
 }
 
 .nav_menu a:hover {
