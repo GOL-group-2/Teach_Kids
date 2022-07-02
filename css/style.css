@@ -85,7 +85,7 @@
   top: 1px;
   overflow: hidden;
   height: 100vh;
-  background-image: url("../images/home_page_images/backImage.jpg");
+  background-image: url("/images/home_page_images/backimage.jpg");
   background-size: 100%;
   background-image: cover;
 }
