@@ -239,7 +239,95 @@
 /* media query of home/ phone */
 
 @media screen and (max-width: 480px) {
-  .nav_menu {
-    display: none;
+  * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
   }
+  .nav_menu {
+    display: block;
+    background-color: none;
+    border: none;
+  }
+
+  .nav_menu .logo h1 {
+    font-size: 2rem;
+  }
+
+  
+.nav_menu li {
+  background-color:none;
+  color: aliceblue;
+  font-size: 12px;
+  border-radius: 5px;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  list-style: none;
+}
+
+.container_description {
+  position: relative;
+  top: 0.5px;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("../images/backimage.jpg");
+  background-size: 100%;
+  background-image: cover;
+}
+
+.header_container {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 30px;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+
+.header_left h1 {
+  font-size: 25px;
+  color: blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header_left p {
+  margin: none;
+  color: rgb(208, 27, 162);
+  font-size: 12px;
+  text-align: justify;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
+.programmes h1, .programmes h4 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #ff7b00;
+  
+}
+
+
+
+.myContents {
+  display: block;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  background: rebeccapurple;
+  color: white;
+  margin: 5px;
+  gap: 4px;
+  border-radius: 1px;
+  align-items: center;
+}
+
 }
