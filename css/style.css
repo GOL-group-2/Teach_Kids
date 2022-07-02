@@ -85,7 +85,7 @@
   top: 1px;
   overflow: hidden;
   height: 100vh;
-  background-image: url("/images/home_page_images/backimage.jpg");
+  background-image: url("../images/backimage.jpg");
   background-size: 100%;
   background-image: cover;
 }
@@ -236,15 +236,10 @@
   background-color: grey;
 }
 
-
-
 /* media query of home/ phone */
 
-
 @media screen and (max-width: 480px) {
-  .nav_menu{
+  .nav_menu {
     display: none;
-
-   }
-  
   }
+}
