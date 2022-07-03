@@ -238,7 +238,7 @@
 
 /* media query of home/ phone */
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 768px) {
   * {
     margin: 0;
     border: 0;
