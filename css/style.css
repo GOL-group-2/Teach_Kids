@@ -236,6 +236,23 @@
   background-color: grey;
 }
 
+
+/* ebooks css */
+
+.eHeading{
+  text-align: center;
+  margin-top: 20px;
+  color: #e66465;
+  font-size: 2rem;
+}
+
+.books-heading p{
+  margin-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight:bolder;
+
+}
 /* media query of home/ phone */
 
 @media screen and (max-width: 768px) {

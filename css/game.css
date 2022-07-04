@@ -1,20 +1,13 @@
 
 /* games css */
 .scratch_container{
-    margin-top: 20px;
+margin-top: 20px;
 margin-bottom:15px;
 }
 .images{
     height: 40%;
 
 }
-@media screen and (max-width: 600px) {
-    .games_container{
-        display: block;
-        font-size: 35px;
-        height: auto;
-        top: auto;
-    }
-}
+
 
 
