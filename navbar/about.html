@@ -23,6 +23,13 @@
       crossorigin="anonymous"
     />
 
+    <!-- animate -->
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <!-- Awsome fonts script -->
 
     <script
@@ -132,8 +139,8 @@
           <div class="aside_image">
             <img src="../images/home_page_images/conatct_message.png" alt="" />
           </div>
-          <h2>Contact Us</h2>
-          <p>
+          <h2 class="animate__animated animate__shakeX animate__delay-2s">Contact Us</h2>
+          <p style="color: red;" class="animate__animated animate__shakeX animate__delay-2s">
             We are available from Monday to Friday from 8:00 Am - 5:00 pm and
             Half day on saturday.
           </p>
@@ -179,11 +186,11 @@
         <form
           action="https://formspree.io/f/mdobvavp"
           method="POST"
-          class="contact_form"
+          class=" contact_form animate__animated animate__heartBeat animate__delay-10s"
           id="book_form"
         >
           <h4>Book Kids Coding with Us</h4>
-          <div class="contact_name">
+          <div class="contact_name ">
             <input
               type="text"
               id="school_name"
