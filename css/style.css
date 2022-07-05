@@ -38,6 +38,11 @@
   z-index: 1;
 }
 
+.nav_style{
+  background: rgb(146, 127, 127);
+  box-shadow: 0 1rem 2rem rgba(9, 8, 18, 0.568);
+  z-index: 1;
+}
 .nav_menu {
   display: flex;
   flex-direction: row;
